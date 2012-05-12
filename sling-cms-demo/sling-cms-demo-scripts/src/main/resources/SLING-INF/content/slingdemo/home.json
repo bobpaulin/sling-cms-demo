@@ -1,5 +1,8 @@
 {
 	  "jcr:title" : "Home",
 	  "title" : "Demo Title",
-      "sling:resourceType" : "slingdemo:base"
+      "sling:resourceType" : "slingdemo:base",
+      "content":{
+      	"sling:resourceType": "slingdemo:contentpage"
+      }
 }

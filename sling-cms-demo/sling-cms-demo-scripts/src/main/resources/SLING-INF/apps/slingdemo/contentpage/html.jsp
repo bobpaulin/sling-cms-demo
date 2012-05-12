@@ -1,6 +1,11 @@
 <%@ include file="/apps/slingdemo/global.jsp" %>
 <%
 	//Add Code to pull content property from currentNode
+	String content ="Edit Me";
+	if(currentNode.hasProperty("content"))
+	{
+		content = currentNode.getProperty("content").getString();
+	}
 	
 %>
 		<script type="text/javascript">
@@ -63,6 +68,6 @@
 			}
 		</script>
 			<div class="editable">
-				<p><!-- Display Content String --></p>
+				<p><%=content %></p>
 			</div>
 		
