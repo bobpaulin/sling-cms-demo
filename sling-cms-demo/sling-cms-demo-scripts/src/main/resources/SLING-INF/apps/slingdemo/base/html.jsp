@@ -23,7 +23,7 @@
   	<div class="container-fluid">
 		<div class="row-fluid">
 			<div class="span12">
-  				
+  				<!-- Add Sling Include for content -->
   			</div>
   		</div>
   	</div>
