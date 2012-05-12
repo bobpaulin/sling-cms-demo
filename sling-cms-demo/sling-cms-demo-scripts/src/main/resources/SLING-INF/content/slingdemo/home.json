@@ -4,5 +4,14 @@
       "sling:resourceType" : "slingdemo:base",
       "content":{
       	"sling:resourceType": "slingdemo:contentpage"
+      },
+      "page-builder": {
+      	"jcr:title" : "Page Builder",
+	  	"title" : "Page Builder",
+      	"sling:resourceType" : "slingdemo:base",
+      	"content":{
+      		"sling:resourceType": "slingdemo:pagebuilder"
+      	}
+      
       }
 }
