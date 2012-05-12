@@ -38,9 +38,9 @@
                 <version>2.0.1</version>
                 <configuration>
                     <instructions>
-                        <Sling-Nodetypes>SLING-INF/nodetypes/nodetypes.cnd</Sling-Nodetypes>
-                        <Sling-Initial-Content>SLING-INF/scripts;overwrite:=true;uninstall:=true;path:=/apps/my/node,
-                            SLING-INF/content;overwrite:=true;uninstall:=true;path:=/content</Sling-Initial-Content>
+                        <!-- <Sling-Nodetypes>SLING-INF/nodetypes/nodetypes.cnd</Sling-Nodetypes> -->
+                        <Sling-Initial-Content>SLING-INF/apps/slingdemo;overwrite:=true;uninstall:=true;path:=/apps/slingdemo,
+                            SLING-INF/content/slingdemo;overwrite:=true;uninstall:=true;path:=/content/slingdemo</Sling-Initial-Content>
                     </instructions>
                 </configuration>
             </plugin>
@@ -62,7 +62,7 @@
                                     <goal>install</goal>
                                 </goals>
                                 <configuration>
-                                    <slingUrl>http://localhost:8888/system/console</slingUrl>
+                                    <slingUrl>http://localhost:8080/system/console</slingUrl>
                                     <user>admin</user>
                                     <password>admin</password>
                                 </configuration>
